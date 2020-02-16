@@ -1,0 +1,17 @@
+.thing {
+  font-size: 2em;
+
+  &.negative {
+    color: blue;
+  }
+  &.positive {
+    color: red;
+  }
+
+
+  button {
+    display:block;
+    font-size: 1em;
+    margin-top:1em;
+  }
+}
