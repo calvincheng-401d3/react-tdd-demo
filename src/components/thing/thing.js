@@ -20,7 +20,7 @@ class Thing extends React.Component {
     return (
       <section className={classes}>
         <span>Stuff: {this.state.stuff.toString()} </span>
-        <button onClick={this.handleClick}>Click Me</button>
+        <button onClick={this.handleClick}>Click Me Now</button>
       </section>
     );
   }
